@@ -1,0 +1,29 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "FILM1",
+      "image": "https://i2.wp.com/tygodniknie.pl/wp-content/uploads/2020/10/sc.png?resize=759%2C500&ssl=1"
+    },
+    {
+      "id": 2,
+      "title": "FILM2",
+      "image": "https://paczaizm.pl/content/wp-content/uploads/elegancko-papiez-jan-pawel-ii-mem-przerobka.jpg"
+    },
+    {
+      "id": 3,
+      "title": "FILM3",
+      "image": "https://www.wykop.pl/cdn/c3201142/comment_oBWUFEKqkTVBtZpK2GpYfFukCzl92BVF.jpg"
+    },
+    {
+      "id": 4,
+      "title": "FILM4",
+      "image": "https://i.ytimg.com/vi/f5YnJrzvmKc/hqdefault.jpg"
+    },
+    {
+      "id": 5,
+      "title": "FILM5",
+      "image": "https://wallpaperaccess.com/full/138728.jpg"
+    }
+  ]
+}
