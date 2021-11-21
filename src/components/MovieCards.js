@@ -1,14 +1,14 @@
 import React from 'react'
-import { CardGroup } from 'react-bootstrap'
+import { CardGroup, Col } from 'react-bootstrap'
 import CardItem from '../components/CardItem'
 
 const MovieCards = ( {movies} ) => {
     return (
-        <CardGroup className="justify-content-md-center">
-            {movies.map((movie) => (
-              <CardItem key={movie.id} movie={movie}/>
-            ))}
-        </CardGroup>
+        movies.map((movie) => (
+            <Col className="d-flex justify-content-center" md={4}>
+                <CardItem key={movie.id} movie={movie}/>
+            </Col>
+        ))
     )
 }
 

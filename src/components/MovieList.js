@@ -22,8 +22,8 @@ const MovieList = () => {
     console.log(movies)
     return (
         <Container fluid="sm">
-            <Row className="justify-content-md-center">
-                <MovieCards className="justify-content-md-center" movies={movies}></MovieCards>
+            <Row>
+                <MovieCards movies={movies}></MovieCards>
             </Row>
         </Container>
     )
